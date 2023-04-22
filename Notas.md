@@ -32,3 +32,27 @@
 
 1. Puedes restablecer los cambios en tu área de trabajo usando el comando `git checkout` seguido del nombre del archivo.
 2. Si quieres restablecer todos los cambios en tu área de trabajo a la última versión en Git, utiliza el comando `git checkout .` (el punto al final indica todos los archivos).
+
+## Formateo de consultas
+
+1. Los comandos de Git se escriben en la línea de comandos o terminal.
+2. La sintaxis básica de un comando de Git es `git <comando> <opciones> <argumentos>`
+3. Algunos de los comandos más comunes son:
+
+### `git init`
+Inicializa un repositorio de Git en tu proyecto.
+
+### `git add`
+Añade archivos al área de preparación (staging area).
+
+### `git commit`
+Registra los cambios en el repositorio de Git.
+
+### `git push`
+Envía tus cambios al repositorio remoto.
+
+### `git pull`
+Descarga los cambios del repositorio remoto.
+
+### `git clone`
+Clona un repositorio remoto en tu máquina local.
