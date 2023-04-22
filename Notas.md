@@ -56,3 +56,17 @@ Descarga los cambios del repositorio remoto.
 
 ### `git clone`
 Clona un repositorio remoto en tu máquina local.
+
+## Formateo de consultas con pretty
+
+1. Algunos comandos de Git, como `git log`, `git status`, o `git diff`, pueden mostrar información formateada para facilitar su lectura.
+2. Puedes agregar el parámetro `--pretty=<format>` para personalizar el formato de salida. Algunos valores comunes para `<format>` son:
+    - `%h`: hash abreviado del commit
+    - `%H`: hash completo del commit
+    - `%s`: título del commit
+    - `%f`: nombre del branch (sólo en `git branch`)
+    - `%an`: nombre del autor
+    - `%ae`: email del autor
+    - `%cd`: fecha del commit (en formato `Sat Mar 13 14:00:00 2021 -0700`)
+3. Por ejemplo, para mostrar el historial de commits con su hash abreviado, título, autor y fecha, usa el comando `git log --pretty=format:"%h - %s - %an (%cd)"`.
+
