@@ -22,3 +22,13 @@
 2. Configura tu nombre de usuario y correo electrónico en Git usando los siguientes comandos en la terminal:
     - `git config --global user.name "Tu nombre de usuario"`
     - `git config --global user.email "tu correo electrónico"`
+
+## Áreas de trabajo
+
+1. El área de trabajo (working directory) es el directorio de tu proyecto donde trabajas y realizas cambios en tus archivos.
+2. Los cambios que realizas en el área de trabajo no se registran automáticamente en Git.
+
+## Restablecimiento de cambios
+
+1. Puedes restablecer los cambios en tu área de trabajo usando el comando `git checkout` seguido del nombre del archivo.
+2. Si quieres restablecer todos los cambios en tu área de trabajo a la última versión en Git, utiliza el comando `git checkout .` (el punto al final indica todos los archivos).
